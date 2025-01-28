@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Sweets Shop</title>
+    <style>
+      body {
+        background: #fbf2d5;
+      }
+      .container {
+        max-width: 609px;
+        background: #394a51;
+        padding: 20px;
+        border-radius: 15px;
+        display: block;
+        margin: 20px auto;
+      }
+      h1 {
+        text-align: center;
+        color: #fbf2d5;
+        font-family: cursive;
+        font-size: 40px;
+      }
+      h2 {
+        text-align: center;
+        color: #fdc57b;
+        font-family: cursive;
+        font-size: 22px;
+        margin-bottom: 30px;
+      }
+      h3 {
+        text-align: center;
+      }
+      img {
+        max-width: 100%;
+        border-radius: 20px;
+      }
+      .premium {
+        transition: all 150ms ease-in-out;
+      }
+      .premium:hover {
+        transform: scale(1.1);
+        filter: contrast(80%);
+      }
+      .gold {
+        transition: all 150ms ease-in-out;
+      }
+      .gold:hover {
+        transform: scale(1.2);
+        filter: contrast(80%);
+      }
+      .silver {
+        transition: all 150ms ease-in-out;
+      }
+      .silver:hover {
+        transform: scale(1.2);
+        filter: contrast(80%);
+      }
+      .bronze {
+        transition: all 150ms ease-in-out;
+      }
+      .bronze:hover {
+        transform: scale(1.2);
+        filter: contrast(80%);
+      }
+      .copper {
+        transition: all 150ms ease-in-out;
+      }
+      .copper:hover {
+        transform: scale(1.2);
+        filter: contrast(80%);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: 12px 0;
+      }
+      .grid img {
+        width: 100%;
+        border-radius: 10px;
+        min-height: 300px;
+        object-fit: cover;
+      }
+      p {
+        text-align: left;
+        color: #fbf2d5;
+        font-family: cursive;
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      a {
+        color: #fdc57b;
+        font-family: cursive;
+        font-size: 16px;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #fdc57b;
+        background: #fbf2d5;
+        color: #394a51;
+        font-size: 20px;
+        font-family: cursive;
+        border-radius: 30px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+      button:hover {
+        background: #fdc57b;
+        color: #394a51;
+        cursor: pointer;
+      }
+      .theme {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        border: 1px solid #fdc57b;
+        background: #fdc57b;
+        color: #394a51;
+        font-size: 20px;
+        font-family: cursive;
+        border-radius: 30px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+      .theme:hover {
+        background: #394a51;
+        color: #fbf2d5;
+        cursor: pointer;
+      }
+      footer {
+        text-align: center;
+        color: #394a51;
+        font-family: cursive;
+        font-size: 16px;
+        margin: 10px;
+      }
+      .dark {
+        background: black;
+      }
+      .dark .container {
+        background: rgba(255, 255, 255, 0.3);
+      }
+      .dark h1 {
+        color: white;
+      }
+      .dark h2 {
+        color: white;
+      }
+      .dark p {
+        color: white;
+      }
+      .dark a {
+        color: white;
+      }
+      .dark button {
+        background: white;
+        color: black;
+        border: 1px solid black;
+      }
+      .dark button:hover {
+        background: black;
+        color: white;
+      }
+      .dark .theme:hover {
+        background: gray;
+        color: white;
+      }
+      .dark footer {
+        color: white;
+      }
+    </style>
+  </head>
+  <body class="">
+    <button class="theme">Change theme</button>
+    <div class="container">
+      <h1>Sweets Shop</h1>
+      <h2>
+        <em>Sweet Tooth Rejoices</em>
+      </h2>
+      <img
+        class="premium"
+        src="https://img.freepik.com/premium-photo/family-baking-cookies-kitchen_1022456-201066.jpg"
+        target="_blank"
+      />
+      <h3>🍪 🥨 🍩 🧁 🎂</h3>
+      <div class="grid">
+        <img
+          class="gold"
+          src="https://www.pillsburybaking.com/wp-content/uploads/2021/03/511.jpeg"
+          target="_blank"
+        />
+        <img
+          class="silver"
+          src="https://handletheheat.com/wp-content/uploads/2020/10/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9-637x637-1.jpg"
+          target="_blank"
+        />
+        <img
+          class="bronze"
+          src="https://www.mollyjwilk.com/wp-content/uploads/2024/01/Macaron-Caramel-1024x731.jpeg"
+          target="_blank"
+        />
+        <img
+          class="copper"
+          src="https://img.freepik.com/premium-photo/chocolate-brownies-with-chocolate-ice-cream_1106454-134025.jpg"
+          target="_blank"
+        />
+      </div>
+      <p>
+        Discover how to whip up warm cookies, incredible cakes, and flaky
+        pastries to eat with your cup of afternoon tea! Everyone knows that
+        nostalgic smell of freshly baked goods wafting through the house that
+        reminds you of a loved one. Whether you baked a fresh batch of cupcakes
+        or a delicious pumpkin pie with a special someone that you both get to
+        indulge in after dinner, baking is a way of bringing people together.
+        While baking sweet treats is a wonderful thing to share with others, you
+        can also make them just to satisfy your own sweet tooth - nothing wrong
+        with that!
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Baking">Read more</a>
+      <button>Come in</button>
+    </div>
+    <footer>Coded with ❤ by Helene Huynh</footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        //body.classList.toggle("dark");
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+      let themeButton = document.querySelector(".theme");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
